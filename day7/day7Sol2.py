@@ -130,7 +130,6 @@ def main():
     for key in handDict:
         if len(handDict[key]) > 1:
             handDict[key]=sorted(handDict[key], key=cmp_to_key(compare))
-        print(handDict)
     print(getTotWins(maxRank))
     
 
